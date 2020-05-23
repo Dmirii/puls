@@ -1,0 +1,14 @@
+@import './base/variables';
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-size: 14px;
+}
+
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+}
+body{
+    background: #000;
+}
