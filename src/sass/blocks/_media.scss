@@ -1,0 +1,92 @@
+@media (max-width: 1200px){   
+
+       
+
+    
+}
+
+@media (max-width: 991px){   
+
+   
+
+  
+}
+
+@media (max-width: 767px){   
+
+.promo{
+    .container{
+
+        max-width:740px;
+
+    }
+    align-items:center;
+}
+
+.promo__wrapper{
+   align-items:center;
+}
+
+.advantages{
+    .container{
+
+        max-width:740px;
+
+    }
+}
+
+.advantages__column{
+    width: 220px;
+}
+
+
+
+}
+
+@media(max-width: 575px){
+
+
+    .header button{
+        width: 125px;
+        font-size: 11px;
+    }
+
+    .header__logo{
+        width: 200px;
+    }
+
+    .header__official{
+        font-size: 10px;
+        span{
+            font-size: 13px;
+        }
+    }
+
+    .header__contacts{
+        a{font-size: 14px;}
+
+    }
+
+    .promo__header{
+        font-size: 38px;
+    }
+    .promo__subheader{
+        font-size: 20px;
+    }
+    .advantages__wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+ 
+    .advantages__column:nth-child(1){
+        margin-right: 15px;
+        
+    }
+   
+
+
+
+}
+

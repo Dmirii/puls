@@ -1,14 +1,24 @@
 @import './base/variables';
 
+
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
     font-size: 14px;
 }
 
+// content container for all section
 .container{
     max-width: 950px;
     margin: 0 auto;
 }
-body{
-    background: #000;
-}
+
+//add promo section
+@import './blocks/promo';
+//add header 
+@import './blocks/header';
+//add buttons 
+@import './blocks/buttons';
+//add section 2
+@import './blocks/advantages';
+//add section 2
+@import './blocks/media';
