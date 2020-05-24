@@ -183,5 +183,37 @@
     .advantages__title{
         font-size: 24px;
     }
+
+    
+    .consultation{
+        min-height: 380px;
+        padding-top: 20px;
+       
+        .container{
+            max-width: 310px;        
+        }
+        h2{
+            text-align: center;
+            font-size: 18px;
+        } 
+        .consultation__descr {
+            width: 300px;
+            padding-top: 10px;
+            font-size: 14px;
+            text-align: center;
+        }  
+       
+    }
+
+    .feed-form{
+        margin-top: 10px;
+        input{
+            height: 38px;
+        }
+        button{
+            height: 40px;
+        }
+    }
+    
 }
 
