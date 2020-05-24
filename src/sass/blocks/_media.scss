@@ -14,16 +14,33 @@
 
 @media (max-width: 767px){   
 
- 
+
 .promo{
+    max-height: 570px;
+    min-height: 560px;
     .container{
         max-width:740px;
     }
     align-items:center;
+
+    &__wrapper{
+        margin-top: 40px;
+       align-items:center;
+    }
+    &__subheader{
+        margin-top: 0;
+    }
+    &__icons{
+        margin-top: 25px;
+    }
+    button{
+        margin-top: 30px;
+        height: 40px;
+        width: 250px;
+
+    }
 }
-.promo__wrapper{
-   align-items:center;
-}
+
 
 .advantages{
     .container{
@@ -35,19 +52,52 @@
     width: 220px;
 }
 
+.consultation{
+    min-height: 380px;
+    padding-top: 60px;
+   
+    .container{
+        max-width: 720px;        
+    }
+    h2{
+        font-size: 30px;
+    } 
+    .consultation__descr {
+        padding-top: 40px;
+    }  
+   
+}
+
+.feed-form{
+    input{
+        height: 40px;
+    }
+    button{
+        height: 40px;
+    }
+}
+
+
 
 
 }
 
 @media(max-width: 575px){
-
+ 
+    .promo{
+        .container{
+            max-width: 540px;
+        }
+    }
     .header button{
-        width: 125px;
-        font-size: 11px;
+        width: 105px;
+        font-size: 10px;
+        height: 30px;
+        margin-top: 10px;
     }
 
     .header__logo{
-        width: 200px;
+        width: 190px;
     }
 
     .header__official{
@@ -70,6 +120,7 @@
     .promo__subheader{
         font-size: 20px;
     }
+    
     .advantages__wrapper{
         flex-wrap: wrap;
         justify-content: center;
@@ -79,6 +130,22 @@
     .advantages__column:nth-child(1){
         margin-right: 15px;
         
+    }
+
+    .consultation{
+        min-height: 380px;
+        padding-top: 60px;
+       
+        .container{
+            max-width: 540px;        
+        }
+        h2{
+            font-size: 28px;
+        } 
+        .consultation__descr {
+            padding-top: 30px;
+        }  
+       
     }
 
 
