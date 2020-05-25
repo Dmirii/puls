@@ -12,20 +12,23 @@
     margin: 0 auto;
 }
 
-//add promo section
-@import './blocks/promo';
 //add header 
 @import './blocks/header';
 //add buttons 
 @import './blocks/buttons';
+//add promo section
+@import './blocks/promo';
 //add advantages section
 @import './blocks/advantages';
-
 //add 
 @import './blocks/consultation';
 //
 @import './blocks/titles';
 //
 @import './blocks/forms';
+//add slider
+@import './blocks/carusel';
+
+
 //add adaptive
 @import './blocks/media';

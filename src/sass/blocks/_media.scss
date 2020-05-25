@@ -7,6 +7,18 @@
 
 @media (max-width: 991px){   
 
+    .consultation{
+        .container{
+            margin-left: 10px;
+        }
+    }
+
+    .promo{
+        .container{
+            margin: 0 10px ;
+        }
+    }
+
    
 
   
@@ -147,7 +159,7 @@
 
 
 }
-@media(max-width: 325px){
+@media(max-width: 460px){
     .header__official{
         display: none;
     }
@@ -158,7 +170,7 @@
 
     .header__contacts{
         a{
-            font-size: 12px;
+            font-size: 12px;            
         }
         button{
             width: 115px;
@@ -177,7 +189,7 @@
     .promo__icons{
         width: 310px;
     }
-    
+
     .advantages__title{
         font-size: 24px;
     }
