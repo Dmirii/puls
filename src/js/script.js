@@ -1,3 +1,5 @@
+console.log('my js conected');
+
 $(document).ready(function(){
     $('.carusel__inner').slick({
         speed:1200,
