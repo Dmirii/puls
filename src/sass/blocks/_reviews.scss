@@ -1,0 +1,43 @@
+.reviews{
+    padding-top: 103px;
+    &__wrapper{
+
+       
+       
+    }
+
+    &__item{
+        display: flex;
+        padding-top: 102px;
+        &:nth-child(1){
+            padding-top: 70px;
+        }
+        img{
+            
+            width: 169px;
+            height: 169px;
+        }
+    }
+
+    &__item-descr{
+        padding-left: 62px;
+    }
+
+    &__item-title{
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    &__item-subtitle{
+        color: #646464;    
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    &__item-txt{
+        padding-top: 19px;
+        max-width: 650px;
+    }
+
+}
