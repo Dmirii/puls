@@ -84,6 +84,28 @@ $(document).ready(function(){
 
       });
 
+      // validation
+      const validSettings ={
+        rules:{
+          name:"required",
+          phone:"required",
+          email:{required:true,
+                email:true}
+        },
+        messages: {
+          name: "Пожалуйста,укажите имя",
+          email: {
+            required: "Пожалуйста, укажите почту",
+            email: "Формат почты должен быть: name@domain.com"
+          },
+          phone:"Пожалуйста, укажите номер телефона"
+        }
+      };
+
+      $('#consultation-form').validate(validSettings);
+      $('#consultation form').validate(validSettings);
+      $('#order form').validate(validSettings);
+
       
     
     
