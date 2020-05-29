@@ -9,8 +9,10 @@
 // content container for all section
 .container{
     max-width: 950px;
-    margin: 0 auto;
+    margin: 0 auto;   
 }
+
+
 
 //add header 
 @import './blocks/header';
@@ -36,6 +38,9 @@
 @import './blocks/footer';
 //add catalog section
 @import './blocks/modal';
+//add Up Element
+@import './blocks/pageup';
+
 
 
 

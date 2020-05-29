@@ -11,5 +11,16 @@
         width: 396px;
     }
 
+  // error
 
+  .error{
+        border: 1px solid $main-color;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+  }
+  
+    label.error{
+        border:none;
+    }
 }
