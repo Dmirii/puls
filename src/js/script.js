@@ -128,6 +128,28 @@ $(document).ready(function(){
     return false;
     });
 
+    $('form').submit( function(event)  {
+
+      event.preventDefault();
+
+       $.ajax({
+            type: "POST",
+             url:"./mailer/smart.php",
+               data: $(this).serialize()
+       }).done( () => {
+
+        $(this).find("input").val("");
+        $('#consultation , #order').fadeOut();
+        $('form').trigger('reset');
+        $('#thanks').fadeIn();
+       
+
+      });
+
+     return false;
+
+    });
+
 
 
 
