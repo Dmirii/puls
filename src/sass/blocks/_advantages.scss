@@ -65,6 +65,11 @@
     }
 
     &__icon{
+
+        &:hover{
+            animation-play-state: paused;
+        }
+
         &_anime-heart{
             animation-name: heardbeat;
             animation-duration: 2s;
